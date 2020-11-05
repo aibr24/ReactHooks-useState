@@ -31,3 +31,22 @@ import React, { useState } from "react";
 
 
 ```
+
+Then we define the state inside our function, otherwise we would encounter an error: 
+```javascript
+//Our import
+import React, { useState } from "react";
+
+
+// The function
+function App(){
+
+// defining our state
+const [state, setState] = useState("initial value")
+
+return;
+}
+
+
+export default App;
+```
