@@ -50,3 +50,7 @@ return;
 
 export default App;
 ```
+
+
+# Naming Convention
+The correct naming convetion is to use camelCase when naming your variable("current state") and function 	&#10060;
