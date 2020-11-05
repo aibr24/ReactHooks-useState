@@ -7,3 +7,7 @@
 * useState()
 * Naming Convention
 
+
+
+# State
+## What is a state?
