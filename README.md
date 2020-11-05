@@ -16,4 +16,5 @@
 
 **What is so special about State?**:
 - Changes in state trigger a re-render in react, so if we are rendering data to the user that might be subject to change,
-state would be the man for the job.
+state would be the man for the job. Instead of having to reload the webpage and send a new request, we can harness the power
+of react and re-render the page applying the changes.
