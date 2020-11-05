@@ -1,3 +1,9 @@
 # Hooks - useState()
 
-## Topics To Discuss
+## Discussion
+
+**Topics to discuss**:
+* State
+* useState()
+* Naming Convention
+
