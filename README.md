@@ -57,7 +57,9 @@ The correct naming convetion is to use camelCase when naming your variable("curr
 so it must be written in that same way.
 
 **a couple of examples**
- 	&#10060;
+
+ 	
+  &#10060;
 ```javascript
 // PascalCase
 const [Variable, SetVariable] = UseState(0);
