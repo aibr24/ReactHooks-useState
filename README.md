@@ -69,6 +69,6 @@ const [Variable, SetVariable] = UseState(0);
  &#10004;
 ```javascript
 //camelCase is the correct naming convention
-const [variableOne, setVariable] = usestate(0);
+const [variableOne, setVariable] = useState(0);
 
 ```
