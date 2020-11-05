@@ -26,7 +26,7 @@ of react and re-render the page applying the changes.
 The first step is to import the hook from our library:
 
 ```javascript
-// don't forget the curly brackets
+// Don't forget the curly brackets
 import React, { useState } from "react";
 
 
@@ -41,7 +41,7 @@ import React, { useState } from "react";
 // The function
 function App(){
 
-// defining our state
+// Defining our state
 const [state, setState] = useState("initial value")
 
 return;
