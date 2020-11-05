@@ -51,7 +51,6 @@ return;
 export default App;
 ```
 
-
 # Naming Convention
 The correct naming convetion is to use camelCase when naming your variable("current state") and function, and in the case of the hook itself its a reserved name
 so it must be written in that same way.
