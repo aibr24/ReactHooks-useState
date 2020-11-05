@@ -12,4 +12,4 @@
 # State
 
 **What is a State?**:
-*The state contains data that may change over time.
+* The state contains data that may change over time.
