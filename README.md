@@ -72,3 +72,29 @@ const [Variable, SetVariable] = UseState(0);
 const [variableOne, setVariable] = useState(0);
 
 ```
+
+
+## Creating a simple counter
+Now let's try writing a simple counter to see how all this works.
+Lets start by attempting to write it wihtout using states to truly understand what the state helps us acheive:
+```javascript
+import React from "react";
+
+
+function App(){
+// creating a let variable for our conter's initial value.
+let counter = 0;
+
+//defining a function that incriments our counter.
+const handleRegIncrement = () => {
+    return count++;
+  };
+
+return;
+}
+
+
+export default App;
+
+
+
