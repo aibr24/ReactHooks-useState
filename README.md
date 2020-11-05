@@ -94,7 +94,7 @@ const handleIncrement = () => {
 return return (
     <div>
       <header>{counter}</header>
-      <button onClick={() => handleIncrement()}>REGINCREMENT</button>
+      <button onClick={() => handleIncrement()}>+</button>
     </div>
   );
 }
