@@ -53,4 +53,20 @@ export default App;
 
 
 # Naming Convention
-The correct naming convetion is to use camelCase when naming your variable("current state") and function 	&#10060;
+The correct naming convetion is to use camelCase when naming your variable("current state") and function, and in the case of the hook itself its a reserved name
+so it must be written in that same way.
+
+**a couple of examples**
+ 	&#10060;
+```javascript
+// PascalCase
+const [Variable, SetVariable] = UseState(0);
+
+```
+ 
+ &#10004;
+```javascript
+//camelCase is the correct naming convention
+const [variableOne, setVariable] = usestate(0);
+
+```
