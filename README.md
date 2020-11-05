@@ -4,7 +4,7 @@
 
 **Topics to discuss**:
 * State
-* using useState()
+* Using useState()
 * Naming Convention
 
 
