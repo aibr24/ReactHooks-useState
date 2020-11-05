@@ -23,3 +23,11 @@ of react and re-render the page applying the changes.
 
 # Using useState( )
 
+The first step is to import the hook from our library:
+
+```javascript
+// don't forget the curly brackets
+import React, { useState } from "react";
+
+
+```
