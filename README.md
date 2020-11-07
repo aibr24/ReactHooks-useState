@@ -117,7 +117,7 @@ function App() {
 
   // The functions
   const handleIncrement = () => {
-    setCount((prevCount) => prevCount + 1);
+    setCount(count + 1);
   };
 
   const handleDecrement = () => {
