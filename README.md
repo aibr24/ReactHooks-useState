@@ -156,7 +156,9 @@ The element can be anything of your choice.
   import react, {useState} from "react"
   ```
 </details>
+
 2. Define the state inside your component
+
 <details>
   <summary>Example</summary>
 
@@ -170,7 +172,9 @@ The element can be anything of your choice.
   }
   ```
 </details>
+
 3. Create a button that changes the states value
+
 <details>
  <summary>Spoiler</summary>
  
@@ -181,7 +185,9 @@ The element can be anything of your choice.
 ```
 
 </details>
+
 4. Create a conditionaly rendered element that relies on the states value
+
 <details>
   <summary>Spoiler</summary>
 
