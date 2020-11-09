@@ -146,6 +146,31 @@ Define a useState with an initial value of false,
 and create an element that would be rendered only if the state is true.
 The element can be anything of your choice.
 
+**Steps**
+
+1. Impport the useState hook
+<details>
+  <summary>Example</summary>
+
+  ```javascript
+  import react, {useState} from "react"
+  ```
+</details>
+2. Define the state inside your component
+<details>
+  <summary>Example</summary>
+
+  ```javascript
+  import react, {useState} from "react"
+  
+  
+  const Component = () => {
+  const [state, setState] = useState("initial state")
+  
+  }
+  ```
+</details>
+
 <details>
   <summary>Spoiler Example</summary>
 
