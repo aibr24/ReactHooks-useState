@@ -170,9 +170,21 @@ The element can be anything of your choice.
   }
   ```
 </details>
-
+3. Create a button that changes the states value
 <details>
-  <summary>Spoiler Example</summary>
+ <summary>Spoiler</summary>
+ 
+ ```javascript
+ <div>
+     <button onClick={() => setState(!state)}>!</button>
+ </div>
+```
+
+</details>
+
+4. Create a conditionaly rendered element that relies on the states value
+<details>
+  <summary>Spoiler</summary>
 
   ```javascript
   import React, { useState } from "react";
