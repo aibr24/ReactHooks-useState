@@ -144,6 +144,31 @@ export default App;
 
 Define a useState with an initial value of false, 
 and create an element that would be rendered only if the state is true.
+The element can be anything of your choice.
+
+<details>
+  <summary>Spoiler Example</summary>
+
+  ```javascript
+  import React, { useState } from "react";
+  
+  
+  function App() {
+  const [state, setState] = useState(false)
+  
+  return(
+   <div>
+      <button onClick={() => setState(!state)}>!</button>
+      <div>{state ? ("hello") : null}</div>
+      <hr/>
+   </div>
+  )
+  
+  }
+
+export default App;
+  ```
+</details>
 
 
 
